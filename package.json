@@ -1,0 +1,51 @@
+{
+  "name": "error-wave",
+  "version": "0.1.0",
+  "description": "Adds additional errors to Node.js.",
+  "type": "module",
+  "packageManager": "yarn@4.3.1",
+  "keywords": [
+    "error",
+    "execute",
+    "execution",
+    "file-system",
+    "filesystem",
+    "permission",
+    "value"
+  ],
+  "homepage": "https://github.com/targendaz2/error-wave#readme",
+  "bugs": {
+    "url": "https://github.com/targendaz2/error-wave/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "dist/"
+  ],
+  "author": "David G Rosenberg <david@dgrdev.com>",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "directories": {
+    "lib": "dist"
+  },
+  "repository": "github:targendaz2/error-wave",
+  "scripts": {
+    "build": "rm -rf dist && tsc --build",
+    "prepack": "yarn build"
+  },
+  "devDependencies": {
+    "@eslint/js": "^8.56.0",
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "@tsconfig/node22": "^22.0.0",
+    "@types/eslint-config-prettier": "^6.11.3",
+    "@types/eslint__js": "^8.42.3",
+    "@types/node": "^20.14.9",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.3.2",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^7.15.0"
+  },
+  "engines": {
+    "node": "^22.0.0"
+  }
+}
