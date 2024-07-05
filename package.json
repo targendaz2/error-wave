@@ -1,7 +1,7 @@
 {
   "name": "error-wave",
   "version": "0.1.0",
-  "description": "Adds additional errors to Node.js.",
+  "description": "Adds additional error types for Node.js.",
   "type": "module",
   "packageManager": "yarn@4.3.1",
   "keywords": [
