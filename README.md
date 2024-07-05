@@ -3,7 +3,6 @@
 ![GitHub License](https://img.shields.io/github/license/targendaz2/error-wave)
 ![GitHub Release](https://img.shields.io/github/v/release/targendaz2/error-wave?label=version)
 ![NPM Version](https://img.shields.io/npm/v/error-wave?logo=npm&logoColor=%23999999)
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/targendaz2/error-wave/test.yml?logo=github&label=tests&logoColor=%23999999)
 
 Adds additional error types for Node.js.
 
